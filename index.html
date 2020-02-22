@@ -6,45 +6,74 @@
     <title>Home Page </title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-   
 </head>
 <body>
     <div class="header">
         <h1>Lois Aleghe</h1>
     </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="row">
-                <div class="col-2 offset-md-3 " bg-light>
-                    <h2>About</h2>
-                 </div>
-                 <div class="col-2">
-                <h2>|Portfolio|</h2>
-                </div>
-                <div class="col-2">
-                <h2>Contact</h2>
-                </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"><h2>About</h2> <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html"><h2>Portfolio</h2></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><h2>Contact</h2></a>
+              </li>
             </div>
-            
+    </nav>
 
-            <!-- <div class="row">
-                <div class="col">
-                    <h2>About me</h2>
-                    <hr>
-                </div>
-            </div> -->
+        <div class="container">
+             <div class="row">
+                <div class="col-2 offset-md-3 " bg-light>
+                   
+            </div> 
+            <!-- I used a card to create the about Me page -->
             <div class="row">
                 <div class="col-md-4">
             <div class="card" style="width: 70em; height: 30em;">
                 <div class="card-body">
                   <h2 class="card-title">About me</h2>
                   <hr>
-                  <img src="a woman.jpg" alt="Cartoon picture of a woman" style="width:150px; height:150px;">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="card-link">Card link</a>
-                  <a href="#" class="card-link">Another link</a>
+                  <img src="a woman.jpg" class="img-thumbnail; img-fluid" alt="Cartoon picture of a woman" style="width:150px; height:150px;float: left; margin-right: 10px; margin-bottom: 5px; border: solid black 1px" 
+                    />
+                  <p class="card-text">My name is Lois Aleghe and I am 19 years. I am a third year Software Engineering Student 
+                    at Carleton University. My hobbies include writing, listening to music, hanging out with friends and sometimes 
+                    cooking. 
+                     <br><br>
+                    I love chocolates - well dark chocolates to be specific, I can manage milk chocolate but I cannot stand white chocolate at all.
+                    I'm lactose in tolerant although I still take some milky stuff cause I mean they are nice (Yes, sometimes I make bad decisions)
+                    I also love seafood so if you are ever going out to eat don't hesitate to invite me. Well, I love going out to eat in general so 
+                    whenever you are going to eat (I mean not just seafood) you can text me.
+                    <br><br>
+                    I love coding in my free time and I do hope one day I would be able to create something that the world would benefit from, in other
+                    words, I hope to make a difference in the world through technology. Earlier on, I said I love listening to music but to be specific,
+                    I love listening  to R&B mainly. That's all I can say about me for now :)
+                  </p>
+                  
                 </div>
               </div>
             </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <div class="box" style="width: 70em; height: 20px;">
+                <footer>
+                    <p>
+                        <br><br>
+                        Posted by: Lois Aleghe
+                    </p>
+                </footer>
+            </div>
+        </div>
         </div>
         </div>
     </div>
